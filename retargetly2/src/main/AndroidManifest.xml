@@ -10,7 +10,7 @@
     <application android:allowBackup="true" android:label="@string/app_name"
         android:supportsRtl="true">
 
-        <receiver android:name=".receivers.GPSBroadCastReceiver">
+        <receiver android:name=".receivers.GPSBroadCastReceiver" android:exported="true">
             <intent-filter>
                 <action android:name="android.location.PROVIDERS_CHANGED" />
             </intent-filter>

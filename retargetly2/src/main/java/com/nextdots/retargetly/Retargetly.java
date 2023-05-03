@@ -10,9 +10,8 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
+import androidx.core.app.ActivityCompat;
 
 import com.nextdots.retargetly.api.ApiController;
 import com.nextdots.retargetly.data.models.Event;
@@ -21,8 +20,6 @@ import com.nextdots.retargetly.receivers.NetworkBroadCastReceiver;
 import com.nextdots.retargetly.utils.GeoUtils;
 import com.nextdots.retargetly.utils.RetargetlyUtils;
 import com.nextdots.retargetly.utils.TaskId;
-
-import java.util.Locale;
 
 
 import static android.content.Context.LOCATION_SERVICE;
