@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 //apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.retargetly'
+group = 'com.github.EduTel'
 android {
     compileSdkVersion 31
     buildToolsVersion '31.0.0'
